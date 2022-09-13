@@ -1,0 +1,31 @@
+#home .search-box{
+    display: flex;
+    align-items: center;
+    background-color: #ffff;
+    margin-inline: 100px;
+    border: 1px solid #f2f2f2;
+    box-shadow: 0 4px 6px 0 rgba(80, 91, 91, 0.16);
+    padding-inline: 16px;
+    margin-top: 50px;
+}
+#home .search-btn{
+    background-color: transparent;
+    border: none;
+    color: #212121;
+
+}
+#home input.input-search{
+    flex-grow: 1;
+    background: transparent;
+    border: none;
+    height: 52px;
+    margin-left:10px;
+}
+.carousel-caption{
+    background-color: #0008;
+    backdrop-filter: blur(8px);
+    border-radius: 4px;
+}
+.carousel-caption *{
+    color: white;
+}

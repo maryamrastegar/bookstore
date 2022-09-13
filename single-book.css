@@ -1,0 +1,34 @@
+
+.single-book-img-body{
+    height: 300px;
+    margin-inline: 10px;
+}
+.cover-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.caption-single-book{
+    color: #212121;
+    font-weight: bold;
+    font-size: 20px;
+}
+.price{
+    color: #3F51B5;
+    font-size: 16px;
+    font-weight: 900;
+}
+.author-id {
+    color: #3F51B5;
+    font-size: 16px;
+    font-size: 700;
+}
+.btn-add-to-basket{
+    background-color: #3F51B5;
+    border: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    border-radius: 15px;
+    
+}

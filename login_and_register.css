@@ -1,0 +1,96 @@
+.auth_page {
+
+    height: 100%;
+    display: grid;
+    place-items: center;
+    padding-top: 8%;
+}
+
+.login-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    width: 360px;
+    margin: auto;
+    background-color: #fff;
+    border: 1px solid #f2f2f2;
+    box-shadow: 0 4px 6px 0 rgba(80, 91, 91, 0.16);
+    padding-block: 32px;
+    padding-inline: 16px;
+    border-radius: 15px;
+}
+
+h2 {
+    color: #212121;
+    margin-bottom: 32px;
+}
+
+.auth_page form .label-login {
+    color: #303F9F;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+.auth_page form input.login-input {
+    border: 1px solid #BDBDBD;
+    border-radius: 5px;
+    color: #212121;
+    background: transparent;
+    height: 42px;
+    margin-bottom: 16px;
+    padding-inline: 10px;
+    width: 100%;
+}
+
+.auth_page form input.login-input::placeholder {
+    color: #212121;
+    font-size: 16px;
+}
+
+.auth_page form input.login-input::focus {
+    border: 1px solid #303F9F;
+}
+
+.auth_page form .btn-login {
+    background-color: #3F51B5;
+    border-radius: 10px;
+    padding-block: 8px;
+    padding-inline: 32px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    margin-top: 32px;
+}
+
+.auth_page form .btn-login:hover {
+    background-color: #303F9F;
+}
+
+.auth_page form .checkbox-item {
+    display: flex;
+    flex-direction: row;
+}
+
+.auth_page .newAccount {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.auth_page .newAccount p {
+    font-size: 12px;
+    color: #212121;
+}
+
+.auth_page .newAccount a {
+    font-size: 14px;
+    color: #3F51B5;
+    text-decoration: none;
+}

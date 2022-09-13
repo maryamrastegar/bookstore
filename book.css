@@ -1,0 +1,49 @@
+#book-page .add-book-box{
+    display: grid;
+    place-items: center;
+} 
+#book-page .add-book-box{
+    display: grid;
+    place-items: center;
+}
+#book-page h1{
+    margin-bottom: 32px;
+}
+#book-page .add-book-form{
+    background-color: #ffff;
+    border: 1px solid #f2f2f2;
+    box-shadow: 0 4px 6px 0 rgba(80, 91, 91, 0.16);
+    padding-inline: 16px;
+    padding-block: 32px;
+    min-width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; 
+}
+#book-page .add-book-form .label-add-book{
+    color: #303F9F;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+#book-page .add-book-form .input-add-book{
+    color: #212121;
+    background: transparent;
+    border:1px solid #BDBDBD;
+    font-size: 16px;
+    height: 42px;
+    margin-bottom: 12px;
+}
+#book-page .add-book-form .input-add-book::placeholder{
+    color: #BDBDBD;
+    font-size: 13px;
+}
+#book-page .btn-add-book{
+    background-color: #3F51B5;
+    border: none;
+    color: #f2f2f2;
+    border-radius: 10px;
+    margin-top: 16px;
+}
+#book-page .btn-add-book:hover{
+    background-color: #303F9F;
+}

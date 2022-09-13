@@ -1,0 +1,55 @@
+#mybooks-page .List-book-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+#mybooks-page .List-book-item .add-new-book {
+    text-decoration: none;
+    background-color: #3F51B5;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: auto;
+}
+
+#mybooks-page .List-book-item i {
+    color: #fff;
+    font-size: 20px;
+}
+
+#mybooks-page .List-book-item .add-new {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#mybooks-page .list-book-box {
+    margin-top: 50px;
+    width: 100%;
+}
+#mybooks-page .list-book-box .btn-del-list-book {
+    background-color: #757575;
+    border: none;
+    padding-inline: 10px;
+    padding-block: 5px;
+    border-radius: 5px;
+}
+
+#mybooks-page .list-book-box .btn-del-list-book i {
+    color: #fff;
+}
+#mybooks-page .list-book-box .btn-edit-list-book {
+    background-color: #757575;
+    border: none;
+    padding-inline: 10px;
+    padding-block: 5px;
+    border-radius: 5px; 
+}
+
+#mybooks-page .list-book-box .btn-edit-list-book i {
+    color: #fff;
+}
